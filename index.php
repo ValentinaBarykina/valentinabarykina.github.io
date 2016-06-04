@@ -75,7 +75,7 @@
 							<img class="image img-responsive" id="welcome-img" src="http://i.imgur.com/O1QP7H0.gif?1" alt="500x500">
 						</div>
 						<div class="col-md-6 col-xs-12">
-							
+							<div><p><?php include("r.txt") ?></p></div>
 						</div>
 					</div>
 				</div>
