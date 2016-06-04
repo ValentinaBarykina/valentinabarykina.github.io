@@ -1,0 +1,46 @@
+#sidebar-wrapper{
+	font-size: 20px;
+}
+
+#jumbotron-header{
+	background: white;
+}
+
+#welcome-img{
+	margin: 0 auto;
+}
+
+#search-bar-container{
+	position: relative;
+}
+
+#search-bar{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.image{
+	border: 2px dashed #0080ff;
+    box-shadow: inset 0 -1px 0 0 #0080ff, inset 0 1px 0 0 #0080ff, 0 1px 0 0 #0080ff, 0 -1px 0 0 #0080ff;
+}
+
+.grid-gallery{
+	margin-bottom: 30px;
+}
+
+.vitamin-img{
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.vitamin-text{
+	text-align: justify;
+	text-indent: 2em;
+}
+
+@media screen and (max-width: 700px){
+	#search-bar-container{
+		margin-top: 20px;
+	}
+}
