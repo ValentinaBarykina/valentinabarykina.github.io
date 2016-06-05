@@ -97,7 +97,12 @@
     background: none;
 }
 
-@media(min-width:1100px) {
+/*648*/
+@media(min-width:1300px) {
+    #menu-toggle{
+        display: none;
+    }
+
     #wrapper {
         padding-left: 250px;
     }
@@ -122,5 +127,23 @@
     #wrapper.toggled #page-content-wrapper {
         position: relative;
         margin-right: 0;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape){
+    #menu-toggle{
+        display: block;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait){
+    #menu-toggle{
+        display: block;
     }
 }
