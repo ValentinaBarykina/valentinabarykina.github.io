@@ -4,7 +4,7 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title></title>
+	<title>CookTheHook</title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -33,8 +33,8 @@
 					<a id="recipe-toggle" href="">Recipes<span class="dropup"><span class="caret"></span></span></a>
 
 					<ul id="recipe-menu">
-						<li><a href="differentRecipes/fishRecipes.html">Fish Recipes</a></li>
-						<li><a href="differentRecipes/meatRecipes.html">Meat Recipes</a></li>
+						<li><a href="Collection-of-Recipes/fishRecipes.html">Fish Recipes</a></li>
+						<li><a href="Collection-of-Recipes/meatRecipes.html">Meat Recipes</a></li>
 					</ul>
 				</li>
 				<li>
@@ -51,18 +51,7 @@
 					<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 				</a>
 
-				<div class="row" id="search-bar-container">
-					<div class="col-md-3 col-xs-12" id="search-bar">
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Search for...">
-							<span class="input-group-btn">
-								<button class="btn btn-default" type="button">Seach</button>
-							</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="jumbotron" id="jumbotron-header">
+				<div class="jumbotron" style="background-color: white;">
 					<h1>Welcome</h1>
 					<h4>Put a short desciption here</h4>
 				</div>
@@ -75,21 +64,13 @@
 							<img class="image img-responsive" id="welcome-img" src="http://i.imgur.com/O1QP7H0.gif?1" alt="500x500">
 						</div>
 						<div class="col-md-6 col-xs-12">
-							<div><p><?php include("r.txt") ?></p></div>
+							<div class="zoom-article">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed magna gravida, porta ipsum non, maximus velit. Phasellus mi nulla, aliquam nec ornare ac, sodales in justo. Nam pulvinar tellus eget venenatis fermentum. Praesent luctus justo sed pretium scelerisque. Mauris quis est orci. Integer quis sem nec ex tempus pharetra. Nullam eget euismod eros. Ut scelerisque justo convallis sapien lacinia scelerisque. Curabitur condimentum scelerisque est, et accumsan tortor varius quis. Pellentesque neque nunc, elementum eget volutpat gravida, aliquet et dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed magna gravida, porta ipsum non, maximus velit. Phasellus mi nulla, aliquam nec ornare ac, sodales in justo. Nam pulvinar tellus eget venenatis fermentum. Praesent luctus justo sed pretium scelerisque. Mauris quis est orci. Integer quis sem nec ex tempus pharetra. Nullam eget euismod eros. Ut scelerisque justo convallis sapien lacinia scelerisque. Curabitur condimentum scelerisque est, et accumsan tortor varius quis. Pellentesque neque nunc, elementum eget volutpat gravida, aliquet et dui.</p>
+							</div>
 						</div>
 					</div>
 				</div>
 
-				<hr />
-
-				<div class="row">
-					<div class="jumbotron" id="jumbotron-header">
-						<h2>Latest Posts</h2>
-						<div class="index-post"></div>
-						<div class="index-post"></div>
-						<div class="index-post"></div>
-					</div>
-				</div>
 			</div>
 			<!-- End of container-fluid -->
 		</div>

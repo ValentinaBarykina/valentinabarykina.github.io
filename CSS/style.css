@@ -2,10 +2,6 @@
 	font-size: 20px;
 }
 
-#jumbotron-header{
-	background: white;
-}
-
 #welcome-img{
 	margin: 0 auto;
 }
@@ -27,6 +23,24 @@
 
 .grid-gallery{
 	margin-bottom: 30px;
+}
+
+.zoom-article{
+	margin-top: 8px;
+}
+
+.collection{
+	margin-right: 5px; 
+	float:left; 
+	display: block;
+}
+
+.collection a{
+	color: white;
+}
+
+.increase-font{
+	font-size: 18px;
 }
 
 .vitamin-img{

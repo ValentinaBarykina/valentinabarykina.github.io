@@ -14,6 +14,7 @@
 
 	<link href="CSS/simple-sidebar.css" rel="stylesheet" type="text/css">
 	<link href="CSS/style.css" rel="stylesheet" type="text/css">
+	<link href="CSS/modal.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -33,8 +34,8 @@
 					<a id="recipe-toggle" href="">Recipes<span class="dropup"><span class="caret"></span></span></a>
 
 					<ul id="recipe-menu">
-						<li><a href="differentRecipes/fishRecipes.html">Fish Recipes</a></li>
-						<li><a href="differentRecipes/meatRecipes.html">Meat Recipes</a></li>
+						<li><a href="Collection-of-Recipes/fishRecipes.html">Fish Recipes</a></li>
+						<li><a href="Collection-of-Recipes/meatRecipes.html">Meat Recipes</a></li>
 					</ul>
 				</li>
 				<li>
@@ -51,33 +52,24 @@
 					<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 				</a>
 
-				<div class="row" id="search-bar-container">
-					<div class="col-md-3 col-xs-12" id="search-bar">
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Search for...">
-							<span class="input-group-btn">
-								<button class="btn btn-default" type="button">Seach</button>
-							</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="jumbotron" id="jumbotron-header">
+				<div class="jumbotron" style="background-color: white;">
 					<h1>Gallery . . .</h1>
 				</div>
 
 				<div class="row">
 					<div class="col-md-3 col-xs-12 grid-gallery">
-						<img class="image img-responsive" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJdWjCP4zEj4ux61-9Em084D4uMxLL5exP5dkpImCWgrM4SBa9kg" width="500" height="500">
+						<img class="image img-responsive" src="http://widewallpaper.info/wp-content/uploads/2015/11/city-hd-hq-download.jpg" width="500" height="500">
 					</div>
+
 					<div class="col-md-3 col-xs-12 grid-gallery">
-						<img class="image img-responsive" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIwA3cvYjjJwHLtByRRXZXgHMJih8kguqGUw0PYz6Vi4ib3QHesA" width="500" height="500">
+						<img class="image img-responsive" src="http://widewallpaper.info/wp-content/uploads/2015/11/city-hd-hq-download.jpg" width="500" height="500">
 					</div>
-					<div class="col-md-3 col-xs-12 grid-gallery">
-						<img class="image img-responsive" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJdWjCP4zEj4ux61-9Em084D4uMxLL5exP5dkpImCWgrM4SBa9kg" width="500" height="500">
-					</div>
-					<div class="col-md-3 col-xs-12 grid-gallery">
-						<img class="image img-responsive" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIwA3cvYjjJwHLtByRRXZXgHMJih8kguqGUw0PYz6Vi4ib3QHesA" width="500" height="500">
+
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+						<span class="close">×</span>
+						<img class="modal-content" id="img01">
+						<div id="caption"></div>
 					</div>
 				</div>
 
@@ -96,6 +88,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 	<script src="Javascript/main.js"></script>
-
+	<script src="Javascript/modal.js"></script>
 </body>
 </html>

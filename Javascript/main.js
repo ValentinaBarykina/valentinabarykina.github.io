@@ -28,3 +28,9 @@ $('.nav-stacked li').on('click', function(){
     $(target).show().siblings().hide();
     $(this).addClass("active").siblings().removeClass("active");
 });
+
+
+$(".zoom-article").click(function(){
+	$(this).toggleClass("increase-font");
+});
+
