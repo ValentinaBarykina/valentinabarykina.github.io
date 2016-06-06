@@ -29,8 +29,7 @@ $('.nav-stacked li').on('click', function(){
     $(this).addClass("active").siblings().removeClass("active");
 });
 
-
+// Used to zoom text when clicked
 $(".zoom-article").click(function(){
 	$(this).toggleClass("increase-font");
 });
-
