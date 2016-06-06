@@ -25,7 +25,6 @@
     width: 0;
     height: 100%;
     margin-left: -250px;
-    top: 0;
     overflow-y: auto;
     background: #003366;
     -webkit-transition: all 0.5s ease;
@@ -97,29 +96,29 @@
     background: none;
 }
 
-/* If the width of the screen is outside of  then */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-    #menu-toggle{
-        display: block;
-    }
-}
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-    #menu-toggle{
-        display: block;
-    }
-}
-
 /* If the width is 648 or greater than collapse the sidebar and display the menu-toggle */
-@media(min-width:1025px) {
+@media(min-width:768px) {
+
     #menu-toggle{
         display: none;
+    }
+    
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) 
+    and (orientation : landscape) {
+        #menu-toggle{
+            display: block;
+        }
+    }
+
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) 
+    and (orientation : portrait) {
+        #menu-toggle{
+            display: block;
+        }
     }
 
     #wrapper {
